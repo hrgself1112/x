@@ -2,7 +2,11 @@
   "name": "@estiva/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start":"nx start",
+    "build":"nx build", 
+    "dev":"nx dev"
+  },
   "private": true,
   "dependencies": {
     "next": "14.0.4",
