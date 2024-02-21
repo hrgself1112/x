@@ -3,6 +3,13 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/estiva-web",
   "projectType": "application",
-  "targets": {},
+  "targets": { "build": {
+    "executor": "@nx/next:build",
+    "outputs": ["{options.outputPath}"],
+    "defaultConfiguration": "production",
+    "options": {
+      "outputPath": "dist/estiva-web"
+    }
+  }},
   "tags": []
 }
