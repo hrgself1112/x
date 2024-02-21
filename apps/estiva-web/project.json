@@ -1,0 +1,8 @@
+{
+  "name": "estiva-web",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/estiva-web",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
