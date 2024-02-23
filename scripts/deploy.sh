@@ -1,5 +1,6 @@
 #!/bin/bash
 
+chmod +x deploy.sh
 # Navigate to the root directory of your Nx monorepo
 cd ~/estiva
 
